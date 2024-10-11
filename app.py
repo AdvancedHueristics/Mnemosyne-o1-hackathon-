@@ -43,7 +43,7 @@ def generate_story(client, reading_level):
     response = client.chat.completions.create(
         model="o1-mini",
         messages=[
-            {"role": "system", "content": prompt},
+            {"role": "user", "content": prompt},
         ],
         max_tokens=2000,
     )
