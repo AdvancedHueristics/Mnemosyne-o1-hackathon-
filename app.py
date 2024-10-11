@@ -13,7 +13,7 @@ recognizer = sr.Recognizer()
 
 # Function to capture and convert speech to text
 def capture_speech():
-    with sr.Microphone() as source:
+    with sr.Microphone(device_index=2) as source:
         st.write("Please say something...")
         audio = recognizer.listen(source)
     try:
