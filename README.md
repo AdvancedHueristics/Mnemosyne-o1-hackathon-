@@ -11,7 +11,7 @@ Functional requirements: From my view they are as follows:
 
 # Mnemosyne-o1-hackathon
 
-This project is designed for the lablab.ai o1 hackathon (27-29SEPT2024). It captures user speech, determines their reading level, and generates stories appropriate for their reading level. User progress is saved and loaded to ensure continuity between sessions.
+This project captures user speech, determines their reading level, and generates stories appropriate for their reading level. User progress is saved and loaded to ensure continuity between sessions.
 
 ## Features
 1. **Voice Command Interface**: Converts voice inputs into text commands.
